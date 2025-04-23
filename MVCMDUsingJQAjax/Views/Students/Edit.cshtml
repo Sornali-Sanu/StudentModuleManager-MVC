@@ -1,0 +1,150 @@
+﻿@model MVCMDUsingJQAjax.Models.ViewModels.StudentViewModel
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <div class="card" style="background-color:lightblue">
+            <div class="card-header">
+                <h2 class="float-start">Edit Student</h2>
+                <a href="@Url.Action("Index", "Students")" class="float-end btn btn-success btn-lg">Student List</a>
+            </div>
+            <div class="card-body">
+                @using (Html.BeginForm("Edit", "Students", FormMethod.Post, new { enctype = "multipart/form-data", id = "editForm" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="form-body">
+                        <div class="row">
+                            @Html.HiddenFor(e => e.StudentId)
+                            <input type="hidden" name="OldImageUrl" value="@Model.ImageUrl" />
+                            <div class="col-md-6">
+                                <div class="form-group mb-2">
+                                    @Html.LabelFor(e => e.StudentName, htmlAttributes: new { @class = "control-label col-3" })
+                                    <div class="col-9 mb-2">
+                                        @Html.EditorFor(e => e.StudentName, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(e => e.StudentName, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="form-group mb-2">
+
+                                    @Html.LabelFor(e => e.Dob, htmlAttributes: new { @class = "control-label col-3" })
+                                    <div class="col-9 mb-2">
+                                        @Html.EditorFor(x => x.Dob, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(e => e.Dob, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group mb-2">
+                                    @Html.LabelFor(e => e.CourseId, htmlAttributes: new { @class = "control-label col-3" })
+                                    @Html.DropDownList("CourseId", null, htmlAttributes: new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(x => x.CourseId, "", new { @class = "text-danger" })
+                                </div>
+
+
+                                <div class="form-group mb-2">
+                                    @Html.LabelFor(e => e.MobileNo, htmlAttributes: new { @class = "control-label col-3" })
+                                    <div class="col-9 mb-2">
+                                        @Html.EditorFor(e => e.MobileNo, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(e => e.MobileNo, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="form-group mb-2">
+                                        @Html.LabelFor(e => e.IsEnrolled, htmlAttributes: new { @class = "control-label col-3" })
+                                        <div class="col-9 mb-2">
+                                            @Html.EditorFor(e => e.IsEnrolled)
+                                            @Html.ValidationMessageFor(e => e.IsEnrolled, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                    <div class="row btn-group mb-2">
+                                        <div class="form-group col-md-8">
+                                            <label asp-for="ProfileFile" class="control-label mb-1"></label>
+                                            <div class="customFile">
+                                                <input name="ProfileFile" type="file" class="custom-file-input" onchange="readUrl(this)" />
+                                                <label class="custom-file-label invisible" for="customFile">Choose File</label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <img id="imageFile" src="@Model.ImageUrl" width="125" height="125" style="border:1px;margin-top:20px;" />
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <button type="button" class="btn btn-primary float-end mb-3" id="addModuleBtn" onclick="AddModule()">Add Module</button>
+                                <div id="modulesTableContainer">
+                                    @Html.Partial("~/Views/Shared/_ModulesTable.cshtml", Model.Modules)
+                                </div>
+                            </div>
+                            <div class="form-footer">
+                                <button type="submit" id="saveStudent" class="btn btn-primary">Update Student</button>
+                            </div>
+                        </div>
+
+                    </div>
+                }
+            </div>
+    </div>
+</div>
+</div>
+<script src="~/Scripts/jquery-3.7.1.min.js"></script>
+<script>
+    $(".custom-file-input").on("change", function () {
+        var fileName = $(this).val().split("\\").pop();
+        $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+        document.getElementById('imageFile').src = window.URL.createObjectURL(this.files[0]);
+    });
+
+   
+    function DeleteItem(btn) {
+        $(btn).closest('tr').remove();
+        ReindexModules();
+    }
+
+    function ReindexModules() {
+        
+        $("#ExpTable tbody tr").each(function (index) {
+            $(this).find("input[name^='Modules']").each(function () {
+                if ($(this).attr("name").includes("ModuleName")) {
+                    $(this).attr("name", "Modules[" + index + "].ModuleName");
+                } else if ($(this).attr("name").includes("Duration")) {
+                    $(this).attr("name", "Modules[" + index + "].Duration");
+                }
+            });
+        });
+    }
+
+    function AddModule() {
+      
+        var currentIndex = $("#ExpTable tbody tr").length;
+
+        var newRow =
+            '<tr>' +
+            '<td><input type="text" class="form-control" name="Modules[' + currentIndex + '].ModuleName" /></td>' +
+            '<td><input type="number" class="form-control" name="Modules[' + currentIndex + '].Duration" /></td>' +
+            '<td><button type="button" class="btn btn-danger" onclick="DeleteItem(this)">Remove</button></td>' +
+            '</tr>';
+
+        $("#ExpTable tbody").append(newRow);
+    }
+
+
+    $("#submitForm").click(function () {
+        var formData = new FormData(document.getElementById("editForm"));
+
+        $.ajax({
+            type: "post",
+            url: "/Student/Edit",
+            contentType: false,
+            processData: false,
+            data: formData,
+            success: function (data) {
+                alert("Edited");
+            },
+            error: function (err) {
+                alert("Error Occurred");
+            }
+        });
+    });
+</script>

@@ -1,0 +1,261 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\mvcmdusingjqajax\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|solutionrelative:mvcmdusingjqajax\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|c:\\users\\sagor\\desktop\\mvcmdusingjqajax\\mvcmdusingjqajax\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|solutionrelative:mvcmdusingjqajax\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\mvcmdusingjqajax\\views\\shared\\_modulestable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|solutionrelative:mvcmdusingjqajax\\views\\shared\\_modulestable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\mvcmdusingjqajax\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|solutionrelative:mvcmdusingjqajax\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\mvcmdusingjqajax\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|solutionrelative:mvcmdusingjqajax\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\mvcmdusingjqajax\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|solutionrelative:mvcmdusingjqajax\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\mvcmdusingjqajax\\models\\coursemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|solutionrelative:mvcmdusingjqajax\\models\\coursemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\mvcmdusingjqajax\\models\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|solutionrelative:mvcmdusingjqajax\\models\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\mvcmdusingjqajax\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|solutionrelative:mvcmdusingjqajax\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\mvcmdusingjqajax\\models\\viewmodels\\studentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|solutionrelative:mvcmdusingjqajax\\models\\viewmodels\\studentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\mvcmdusingjqajax\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|solutionrelative:mvcmdusingjqajax\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\mvcmdusingjqajax\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|solutionrelative:mvcmdusingjqajax\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\mvcmdusingjqajax\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1DB7CE99-6C27-45E5-BDC2-40F8C3C1084D}|MVCMDUsingJQAjax\\MVCMDUsingJQAjax.csproj|solutionrelative:mvcmdusingjqajax\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Round_63\\MVC\\evidence\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Migrations\\202501060801597_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Round_63\\MVC\\evidence\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Models\\Module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Views\\Students\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVCMDUsingJQAjax\\Views\\Students\\Index.cshtml",
+              "ToolTip": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Views\\Students\\Index.cshtml",
+              "RelativeToolTip": "MVCMDUsingJQAjax\\Views\\Students\\Index.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAABhwBUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-06T08:16:25.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CourseModule.cs",
+              "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Models\\CourseModule.cs",
+              "RelativeDocumentMoniker": "MVCMDUsingJQAjax\\Models\\CourseModule.cs",
+              "ToolTip": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Models\\CourseModule.cs",
+              "RelativeToolTip": "MVCMDUsingJQAjax\\Models\\CourseModule.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T03:03:48.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "MVCMDUsingJQAjax\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Models\\Course.cs",
+              "RelativeToolTip": "MVCMDUsingJQAjax\\Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T07:53:24.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Views\\Students\\Create.cshtml",
+              "RelativeDocumentMoniker": "MVCMDUsingJQAjax\\Views\\Students\\Create.cshtml",
+              "ToolTip": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Views\\Students\\Create.cshtml",
+              "RelativeToolTip": "MVCMDUsingJQAjax\\Views\\Students\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-06T17:13:21.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "MVCMDUsingJQAjax\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "MVCMDUsingJQAjax\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T08:01:38.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Models\\StudentDbContext.cs",
+              "RelativeDocumentMoniker": "MVCMDUsingJQAjax\\Models\\StudentDbContext.cs",
+              "ToolTip": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Models\\StudentDbContext.cs",
+              "RelativeToolTip": "MVCMDUsingJQAjax\\Models\\StudentDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T07:57:58.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Views\\Students\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MVCMDUsingJQAjax\\Views\\Students\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Views\\Students\\Edit.cshtml",
+              "RelativeToolTip": "MVCMDUsingJQAjax\\Views\\Students\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T06:26:11.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVCMDUsingJQAjax\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVCMDUsingJQAjax\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T05:47:29.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Models\\ViewModels\\StudentViewModel.cs",
+              "RelativeDocumentMoniker": "MVCMDUsingJQAjax\\Models\\ViewModels\\StudentViewModel.cs",
+              "ToolTip": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Models\\ViewModels\\StudentViewModel.cs",
+              "RelativeToolTip": "MVCMDUsingJQAjax\\Models\\ViewModels\\StudentViewModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wCcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T08:32:54.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "MVCMDUsingJQAjax\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "MVCMDUsingJQAjax\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T08:03:31.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ModulesTable.cshtml",
+              "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Views\\Shared\\_ModulesTable.cshtml",
+              "RelativeDocumentMoniker": "MVCMDUsingJQAjax\\Views\\Shared\\_ModulesTable.cshtml",
+              "ToolTip": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Views\\Shared\\_ModulesTable.cshtml",
+              "RelativeToolTip": "MVCMDUsingJQAjax\\Views\\Shared\\_ModulesTable.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T03:07:35.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "MVCMDUsingJQAjax\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "MVCMDUsingJQAjax\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAuwKYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T08:03:28.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\packages.config",
+              "RelativeDocumentMoniker": "MVCMDUsingJQAjax\\packages.config",
+              "ToolTip": "C:\\Users\\SAGOR\\Desktop\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\packages.config",
+              "RelativeToolTip": "MVCMDUsingJQAjax\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-07T03:04:30.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "202501060801597_init.cs",
+              "DocumentMoniker": "E:\\Round_63\\MVC\\evidence\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Migrations\\202501060801597_init.cs",
+              "ToolTip": "E:\\Round_63\\MVC\\evidence\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Migrations\\202501060801597_init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T08:02:13.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Module.cs",
+              "DocumentMoniker": "E:\\Round_63\\MVC\\evidence\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Models\\Module.cs",
+              "ToolTip": "E:\\Round_63\\MVC\\evidence\\MVCMDUsingJQAjax\\MVCMDUsingJQAjax\\Models\\Module.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T07:54:24.009Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

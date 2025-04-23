@@ -1,0 +1,147 @@
+﻿@model MVCMDUsingJQAjax.Models.ViewModels.StudentViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Add Student";
+}
+
+
+<div class="card" style="background-color:lavender">
+    <div class="card-header bg-primary text-uppercase text-white" style="height:45px">
+        <h4>Add Student Info</h4>
+    </div>
+    <div class="card-body">
+        <form id="createForm" asp-action="Create" enctype="multipart/form-data">
+            <div class="row">
+                
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                @Html.LabelFor(e => e.StudentName, htmlAttributes: new { @class = "form-label" })
+                                @Html.EditorFor(e => e.StudentName, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(e => e.StudentName, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                @Html.LabelFor(e => e.Dob, htmlAttributes: new { @class = "form-label" })
+                                @Html.EditorFor(x => x.Dob, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(e => e.Dob, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                @Html.LabelFor(e => e.Course, htmlAttributes: new { @class = "form-label" })
+                                @Html.DropDownList("CourseId",
+                                    new SelectList(Model.Courses, "CourseId", "CourseName"),
+                                    "Select Course",
+                                    htmlAttributes: new { @class = "form-control" })
+                                @Html.ValidationMessageFor(x => x.CourseId, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                @Html.LabelFor(e => e.MobileNo, htmlAttributes: new { @class = "form-label" })
+                                @Html.EditorFor(e => e.MobileNo, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(e => e.MobileNo, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                @Html.LabelFor(e => e.IsEnrolled, htmlAttributes: new { @class = "form-label" })
+                                @Html.EditorFor(e => e.IsEnrolled)
+                                @Html.ValidationMessageFor(e => e.IsEnrolled, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                <label for="ProfileFile" class="form-label">Profile Picture</label>
+                                <input name="ProfileFile" type="file" class="form-control" onchange="readUrl(this)" />
+                                <img id="imageFile" src="~/Images/noimage.png" class="img-thumbnail mt-2" width="125" height="125" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-4">
+                    <div class="mb-3">
+                        <div id="modulesTableContainer">
+                            @Html.Partial("_ModulesTable", Model.Modules)
+                        </div>
+                    </div>
+                    
+                    <div class="form-group" style="text-align: center;">
+                        <button type="button" class="btn btn-primary" onclick="AddModule()">Add Module</button>
+                    </div>
+                </div>
+            </div>
+
+           
+            <div class="row mt-3">
+                <div class="col-md-12 text-center">
+                    @Html.ActionLink("Back to list", "Index", "Students", null, new { @class = "btn btn-secondary me-2" })
+                    <input id="submitForm" type="submit" value="Add Student Info" class="btn btn-success" />
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<script src="~/Scripts/jquery-3.7.1.js"></script>
+<script>
+
+
+    function readUrl(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                $('#imageFile').attr('src', e.target.result).show();
+            };
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+    function DeleteItem(btn) {
+        $(btn).closest('tr').remove();
+    }
+
+    function AddModule() {
+        var lastRowIndex = parseInt($("#hdnLastIndex").val());
+        var newRow = '<tr>' +
+            '<td><input type="text" class="form-control" name="Modules[' + lastRowIndex + '].ModuleName" /></td>' +
+            '<td><input type="number" class="form-control" name="Modules[' + lastRowIndex + '].Duration" /></td>' +
+            '<td><button type="button" class="btn btn-danger" onclick="DeleteItem(this)">Delete</button></td>' +
+            '</tr>';
+        $("#ExpTable tbody").append(newRow);
+        $("#hdnLastIndex").val(lastRowIndex + 1);
+    }
+
+  
+
+    $("#createForm").submit(function (event) {
+        event.preventDefault();
+        var formData = new FormData(this);
+
+        $.ajax({
+            type: "post",
+            url: "/Students/Create",
+            contentType: false,
+            processData: false,
+            data: formData,
+            success: function (data) {
+                alert("Created");
+                window.location.href = "/Students/Index"
+            },
+            error: function (err) {
+                alert("Error Occurred");
+            }
+        });
+    });
+</script>
